@@ -41,3 +41,9 @@ if(edad3 === edad4){
 } else {
     console.log("No son iguales");
 };
+
+// Operador ternario
+// Utiliza una sintaxis de:
+// condicion ? verdadero : falso;
+
+5>6 ? 'Cierto' : 'Falso';

@@ -16,3 +16,17 @@ console.log(auto.nombre);
 // Borrar un atributo de un objeto
 delete auto.anio
 console.log(auto);
+
+// Objetos con metodos
+var persona = {
+    nombre: 'Luis',
+    edad: 27,
+    color_ojos: 'cafe',
+    peso = 69,
+    // Creamos un metodo dentro del objeto
+    mensajeNombreOjos: function(){
+        console.log(`Mi nombre es ${this.nombre} y tengo un color de ojos ${this.color_ojos}`)
+    }
+}
+
+persona.mensajeNombreOjos()

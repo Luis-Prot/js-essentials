@@ -28,3 +28,7 @@ var premierLeague = ["Chelsea", "Manchester United", "Liverpool", "Arsenal"];
 for (i=0; i < premierLeague.length; i++){
     console.log(premierLeague[i]);
 };
+
+for (var equipo of premierLeague){
+    console.log(equipo);
+};

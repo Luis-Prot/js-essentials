@@ -1,7 +1,7 @@
 /* Clase 13 - Switch */ 
 // Se utiliza para revisar varias condiciones 
 
-var metodoPago = ''
+var metodoPago = prompt('Ingresa tu forma de pago')
 
 switch (metodoPago) {
     case "TC":
